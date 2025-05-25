@@ -5,7 +5,7 @@ from tensorflow import keras
 from keras import layers
 
 # Import Data
-data = pd.read_csv("C:\\Users\\anand\\OneDrive\\Desktop\\Datasets\\emails.csv\\emails.csv")
+data = pd.read_csv("emails.csv")
 data = data[0:5000]
 Train = data[0:4000]
 Test = data[4000:5000]
