@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Taking the CSV file
-dataset = pd.read_csv("C:\\Users\\anand\\OneDrive\\Desktop\\Datasets\\emails.csv\\emails.csv")
+dataset = pd.read_csv("emails.csv")
 
 # Seperating the dateset
 x = dataset.iloc[: ,1:]
